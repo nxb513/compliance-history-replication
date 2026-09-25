@@ -1,0 +1,4 @@
+group,plants,median_top1_share,median_top2_share,median_n_params,mean_n_params
+plants with >=1 violation,2752,0.6,0.9,3.0,3.8826308139534884
+plants with >=10 violations,1437,0.5,0.7647058823529411,5.0,5.729297146833681
+plants with >=50 violations,434,0.45151759333870534,0.7092463092463093,7.0,8.2926267281106

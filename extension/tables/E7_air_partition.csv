@@ -1,0 +1,11 @@
+program,sample,outcome,firm,plant,resid,D,plants,firms,plant_years,mean,note,reml_note
+air,all plants with a program ID,any_air,0.1003167992758115,0.2250158223275394,0.674667378396649,0.1246990230517278,5152.0,825.0,42791.0,0.0949031338365544,,
+air,all plants with a program ID,any_hpv,0.0746876646070901,0.1830738792759748,0.7422384561169351,0.1083862146688847,5152.0,825.0,42791.0,0.0329975929517889,,
+air,all plants with a program ID,any_e90,0.1714133313857702,0.3324602908059453,0.4961263778082843,0.161046959420175,5152.0,825.0,42791.0,0.3099483536257624,,
+air,all plants with a program ID,D(any_air) minus D(any_e90),,,,,,,,,diff CI [-0.079 -0.002]; D_any_air CI [0.105 0.144]; firm share diff CI [-0.089 -0.05 ],
+air,all plants with a program ID,"any_air, REML",0.0438400822600099,0.178734523163542,0.7774253945764481,0.1348944409035321,,,,,,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+air,major and synthetic-minor air sources,any_air,0.0964265926379484,0.2145114475243006,0.6890619598377509,0.1180848548863521,3489.0,637.0,30659.0,0.1245637496330604,,
+air,major and synthetic-minor air sources,any_hpv,0.073714377900941,0.1752131284261244,0.7510724936729345,0.1014987505251834,3489.0,637.0,30659.0,0.0444567663655044,,
+air,major and synthetic-minor air sources,any_e90,0.175799013504838,0.3113963691851996,0.5128046173099624,0.1355973556803616,3489.0,637.0,30659.0,0.3507616034443393,,
+air,major and synthetic-minor air sources,D(any_air) minus D(any_e90),,,,,,,,,diff CI [-0.048  0.018]; D_any_air CI [0.095 0.138]; firm share diff CI [-0.099 -0.06 ],
+air,major and synthetic-minor air sources,"any_air, REML",0.0387912871347704,0.1759350075305453,0.7852737053346842,0.1371437203957749,,,,,,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)

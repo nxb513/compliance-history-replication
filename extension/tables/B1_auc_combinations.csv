@@ -1,0 +1,25 @@
+program,outcome,model,mean_test_auc,sd,splits
+air,any air violation,baseline: NPDES major,0.5744335190515251,0.012918973292648149,100
+air,any air violation,own program history,0.7149595535632668,0.011378692353643926,100
+air,any air violation,own program + own water,0.7452435278122798,0.01272822307387002,100
+air,any air violation,own program + own water + firm histories,0.7470253310271404,0.014053581265702693,100
+air,any air violation,firm histories only,0.6189601100363723,0.016582471263831406,100
+air,any high priority air violation,baseline: NPDES major,0.6110055399764472,0.01906764607576906,100
+air,any high priority air violation,own program history,0.7480667741422041,0.016462272159937057,100
+air,any high priority air violation,own program + own water,0.771030783389854,0.018750866288727786,100
+air,any high priority air violation,own program + own water + firm histories,0.7830319439142147,0.017975840651501613,100
+air,any high priority air violation,firm histories only,0.6596968252501765,0.02069281962094198,100
+rcra,any RCRA violation,baseline: NPDES major,0.5677314734890683,0.01384136495180541,100
+rcra,any RCRA violation,own program history,0.745813294382225,0.010403708699058777,100
+rcra,any RCRA violation,own program + own water,0.7631416722579712,0.011107622702312853,100
+rcra,any RCRA violation,own program + own water + firm histories,0.7810374983526384,0.011433758978836337,100
+rcra,any RCRA violation,firm histories only,0.6681985422119076,0.01571199472664064,100
+rcra,any RCRA significant noncomplier,baseline: NPDES major,0.5636338817659738,0.03075938801096413,100
+rcra,any RCRA significant noncomplier,own program history,0.801868191688984,0.01904848726792246,100
+rcra,any RCRA significant noncomplier,own program + own water,0.7999814116546524,0.022423467464974912,100
+rcra,any RCRA significant noncomplier,own program + own water + firm histories,0.8055024411610203,0.020287606521446122,100
+rcra,any RCRA significant noncomplier,firm histories only,0.6597840599616452,0.03121449951702649,100
+water,any effluent violation,baseline: NPDES major,0.6445441150725995,0.011405627414808389,100
+water,any effluent violation,own water history,0.8272407139106367,0.009143054606695764,100
+water,any effluent violation,own + firm water history,0.8370739054145748,0.009528327115633867,100
+water,any effluent violation,firm water history only,0.6214003797143333,0.013848978651047786,100

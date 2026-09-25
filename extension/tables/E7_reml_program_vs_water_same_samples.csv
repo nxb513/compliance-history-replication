@@ -1,0 +1,9 @@
+program,sample,outcome,firm,plant,resid,converged,plant_over_persistent,reml_note
+air,all plants with a program ID,any_air,0.0438400822600099,0.178734523163542,0.7774253945764481,True,0.8030319668473243,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+air,all plants with a program ID,any_e90,0.0843344754456096,0.325611615732261,0.5900539088221294,True,0.7942791082522654,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+air,major and synthetic-minor air sources,any_air,0.0387912871347704,0.1759350075305453,0.7852737053346842,True,0.8193454267199429,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+air,major and synthetic-minor air sources,any_e90,0.0839528261049777,0.3203782308639037,0.5956689430311185,True,0.792366120143378,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+rcra,all plants with a program ID,any_rcra,0.0500670779410436,0.0903419286761559,0.8595909933828004,True,0.6434197552757944,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+rcra,all plants with a program ID,any_e90,0.0844028364256842,0.3241858624440246,0.5914113011302911,True,0.7934283629009556,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+rcra,large quantity generators or operating TSDFs,any_rcra,0.0282776727449717,0.0859161714420239,0.8858061558130044,True,0.7523713038448357,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+rcra,large quantity generators or operating TSDFs,any_e90,0.1120453662858389,0.3357805380371322,0.5521740956770288,True,0.7498015072280588,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)

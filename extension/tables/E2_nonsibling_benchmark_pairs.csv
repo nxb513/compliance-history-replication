@@ -1,0 +1,5 @@
+pair_type,corr,n_pairs
+"non-siblings, same state",0.10838836132518231,395903
+"non-siblings, same state & NAICS-4",0.19547679420223488,336612
+"non-siblings, same NAICS-4 (any state)",0.11060852506299292,376366
+"non-siblings, random",-0.000916094088684591,398828

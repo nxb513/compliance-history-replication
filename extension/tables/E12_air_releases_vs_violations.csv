@@ -1,0 +1,4 @@
+outcome,nested_firm,nested_plant,nested_resid,reml_firm,reml_plant,reml_resid,reml_method,reml_llf_spread,note
+log(1 + TRI air releases),0.5233318567840854,0.4084141044215663,0.0682540387943481,0.4226577717075215,0.496116628983442,0.08122559930903647,nm,5.910356412641704e-05,"nested firm share, releases minus violations: CI [0.36  0.443]; Spearman(long-run releases, long-run violation rate) 0.353; top-decile violators that are top-decile emitters 0.260; plants with any air violation reporting zero air releases 0.030; sample plants 3538, firms 670, plant-years 19977"
+any air violation (same plant-years),0.12282605287811728,0.26516304868851964,0.6120108984333631,0.049923923286402064,0.19977016000605696,0.750305916707541,powell,1.2542877811938524e-06,
+any water violation (same plant-years),0.19525684689867162,0.38775630580190906,0.4169868472994193,0.09127823214129917,0.38598595486573944,0.5227358129929613,nm,0.04188958718441427,

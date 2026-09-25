@@ -1,0 +1,7 @@
+pair,mean_jaccard,n
+"siblings, all",0.22210134333751902,6203
+"siblings, same NAICS-4",0.2750218925423292,3671
+"siblings, same state",0.4524701459625603,1287
+"non-siblings, same NAICS-4",0.18180081203631004,60000
+"non-siblings, same NAICS-4 & state",0.25806909335412004,10167
+"non-siblings, random",0.14064950660294545,60000

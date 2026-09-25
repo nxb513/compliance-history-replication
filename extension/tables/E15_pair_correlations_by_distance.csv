@@ -1,0 +1,145 @@
+outcome,pair,state,distance_km,scope,pairs,corr
+"water, raw",sibling,same state,0-50,all pairs,2310,0.4250577605874664
+"water, raw",sibling,same state,0-50,different NAICS-3,505,0.30553304587749275
+"water, raw",sibling,same state,50-100,all pairs,1727,0.2895251327865732
+"water, raw",sibling,same state,50-100,different NAICS-3,360,0.307308230795981
+"water, raw",sibling,same state,100-200,all pairs,2414,0.23601033434965135
+"water, raw",sibling,same state,100-200,different NAICS-3,517,0.15075477217019886
+"water, raw",sibling,same state,200-400,all pairs,2493,0.17217106653194603
+"water, raw",sibling,same state,200-400,different NAICS-3,523,0.005398621932753542
+"water, raw",sibling,same state,400-800,all pairs,592,0.15529829392437342
+"water, raw",sibling,same state,400-800,different NAICS-3,176,0.11654537888843725
+"water, raw",sibling,same state,800+,all pairs,45,0.2928208429158882
+"water, raw",sibling,same state,800+,different NAICS-3,9,
+"water, raw",sibling,different state,0-50,all pairs,177,0.03596342367671287
+"water, raw",sibling,different state,0-50,different NAICS-3,26,
+"water, raw",sibling,different state,50-100,all pairs,344,0.1374574974114001
+"water, raw",sibling,different state,50-100,different NAICS-3,89,0.13683704003156905
+"water, raw",sibling,different state,100-200,all pairs,1410,0.1585566631677212
+"water, raw",sibling,different state,100-200,different NAICS-3,510,0.0873274435057415
+"water, raw",sibling,different state,200-400,all pairs,5863,0.11917741817221279
+"water, raw",sibling,different state,200-400,different NAICS-3,2255,0.030471961833641738
+"water, raw",sibling,different state,400-800,all pairs,14627,0.07245197432306896
+"water, raw",sibling,different state,400-800,different NAICS-3,6001,0.010781166108524334
+"water, raw",sibling,different state,800+,all pairs,47581,0.052982412936697344
+"water, raw",sibling,different state,800+,different NAICS-3,23218,0.007775456017367173
+"water, raw",unrelated,same state,0-50,all pairs,103427,0.2126515681940304
+"water, raw",unrelated,same state,0-50,different NAICS-3,88944,0.18152576025335826
+"water, raw",unrelated,same state,50-100,all pairs,129517,0.13420456865129574
+"water, raw",unrelated,same state,50-100,different NAICS-3,114965,0.11646160822891567
+"water, raw",unrelated,same state,100-200,all pairs,247386,0.09886226967179225
+"water, raw",unrelated,same state,100-200,different NAICS-3,223647,0.08665058149691392
+"water, raw",unrelated,same state,200-400,all pairs,326723,0.07703755454432132
+"water, raw",unrelated,same state,200-400,different NAICS-3,295096,0.06883800988381976
+"water, raw",unrelated,same state,400-800,all pairs,96734,0.09539884079848719
+"water, raw",unrelated,same state,400-800,different NAICS-3,88051,0.09233645565774885
+"water, raw",unrelated,same state,800+,all pairs,3882,0.04714887243582672
+"water, raw",unrelated,same state,800+,different NAICS-3,3461,0.07493486571066839
+"water, raw",unrelated,different state,0-50,all pairs,13623,0.029890798514542034
+"water, raw",unrelated,different state,0-50,different NAICS-3,12213,0.017104702297162516
+"water, raw",unrelated,different state,50-100,all pairs,52226,0.03436141702982055
+"water, raw",unrelated,different state,50-100,different NAICS-3,47281,0.027483343718186486
+"water, raw",unrelated,different state,100-200,all pairs,305847,0.03969703213010219
+"water, raw",unrelated,different state,100-200,different NAICS-3,280264,0.03148038260402642
+"water, raw",unrelated,different state,200-400,all pairs,1482543,0.020026614139945623
+"water, raw",unrelated,different state,200-400,different NAICS-3,1359451,0.013037573281585536
+"water, raw",unrelated,different state,400-800,all pairs,5054406,-0.008367465289410906
+"water, raw",unrelated,different state,400-800,different NAICS-3,4646042,-0.012796560761087804
+"water, raw",unrelated,different state,800+,all pairs,18128608,-0.006401645183426576
+"water, raw",unrelated,different state,800+,different NAICS-3,16670667,-0.009711604370097647
+"water, residualized",sibling,same state,0-50,all pairs,2310,0.27860386978266793
+"water, residualized",sibling,same state,0-50,different NAICS-3,505,0.2420123244582248
+"water, residualized",sibling,same state,50-100,all pairs,1727,0.17169763596589982
+"water, residualized",sibling,same state,50-100,different NAICS-3,360,0.15822788051512449
+"water, residualized",sibling,same state,100-200,all pairs,2414,0.12506978100654545
+"water, residualized",sibling,same state,100-200,different NAICS-3,517,0.10144238808775549
+"water, residualized",sibling,same state,200-400,all pairs,2493,0.14321257941741217
+"water, residualized",sibling,same state,200-400,different NAICS-3,523,0.07901818848297588
+"water, residualized",sibling,same state,400-800,all pairs,592,-0.01852939884211692
+"water, residualized",sibling,same state,400-800,different NAICS-3,176,-0.01032396715963238
+"water, residualized",sibling,same state,800+,all pairs,45,0.13102671516917722
+"water, residualized",sibling,same state,800+,different NAICS-3,9,
+"water, residualized",sibling,different state,0-50,all pairs,177,-0.09244471427205005
+"water, residualized",sibling,different state,0-50,different NAICS-3,26,
+"water, residualized",sibling,different state,50-100,all pairs,344,0.05403920395539368
+"water, residualized",sibling,different state,50-100,different NAICS-3,89,0.04944914507127056
+"water, residualized",sibling,different state,100-200,all pairs,1410,0.03904741532457766
+"water, residualized",sibling,different state,100-200,different NAICS-3,510,0.015655855957579814
+"water, residualized",sibling,different state,200-400,all pairs,5863,0.03880229204948914
+"water, residualized",sibling,different state,200-400,different NAICS-3,2255,-0.008538493051907693
+"water, residualized",sibling,different state,400-800,all pairs,14627,0.025714699509004103
+"water, residualized",sibling,different state,400-800,different NAICS-3,6001,-0.0019585952421586976
+"water, residualized",sibling,different state,800+,all pairs,47581,0.011158985033906214
+"water, residualized",sibling,different state,800+,different NAICS-3,23218,-0.0004412524946921794
+"water, residualized",unrelated,same state,0-50,all pairs,103427,0.09399178310976661
+"water, residualized",unrelated,same state,0-50,different NAICS-3,88944,0.0880566650908769
+"water, residualized",unrelated,same state,50-100,all pairs,129517,0.09203090886636459
+"water, residualized",unrelated,same state,50-100,different NAICS-3,114965,0.08639253637952211
+"water, residualized",unrelated,same state,100-200,all pairs,247386,0.09150942018230311
+"water, residualized",unrelated,same state,100-200,different NAICS-3,223647,0.09041272232393423
+"water, residualized",unrelated,same state,200-400,all pairs,326723,0.07276663815967988
+"water, residualized",unrelated,same state,200-400,different NAICS-3,295096,0.06952417011785204
+"water, residualized",unrelated,same state,400-800,all pairs,96734,0.05552512972381252
+"water, residualized",unrelated,same state,400-800,different NAICS-3,88051,0.052958122781695226
+"water, residualized",unrelated,same state,800+,all pairs,3882,-0.029606123467556984
+"water, residualized",unrelated,same state,800+,different NAICS-3,3461,-0.002382833994362165
+"water, residualized",unrelated,different state,0-50,all pairs,13623,-0.009309799589960106
+"water, residualized",unrelated,different state,0-50,different NAICS-3,12213,-0.014311575699099292
+"water, residualized",unrelated,different state,50-100,all pairs,52226,0.005991152548446701
+"water, residualized",unrelated,different state,50-100,different NAICS-3,47281,0.005717213220492262
+"water, residualized",unrelated,different state,100-200,all pairs,305847,-0.001110149051817187
+"water, residualized",unrelated,different state,100-200,different NAICS-3,280264,-0.0018786752511531402
+"water, residualized",unrelated,different state,200-400,all pairs,1482543,-0.01613163879362858
+"water, residualized",unrelated,different state,200-400,different NAICS-3,1359451,-0.016700274819111256
+"water, residualized",unrelated,different state,400-800,all pairs,5054406,-0.008497205354283699
+"water, residualized",unrelated,different state,400-800,different NAICS-3,4646042,-0.008293809941758677
+"water, residualized",unrelated,different state,800+,all pairs,18128608,-0.0007145237371315403
+"water, residualized",unrelated,different state,800+,different NAICS-3,16670667,-9.140865197004662e-05
+water x air (covariance of standardized rates),sibling,same state,0-50,all pairs,1039,0.2387074446554865
+water x air (covariance of standardized rates),sibling,same state,0-50,different NAICS-3,245,0.19791095192703373
+water x air (covariance of standardized rates),sibling,same state,50-100,all pairs,727,0.14174092283038145
+water x air (covariance of standardized rates),sibling,same state,50-100,different NAICS-3,174,0.09013653188607068
+water x air (covariance of standardized rates),sibling,same state,100-200,all pairs,1095,0.1803208912463175
+water x air (covariance of standardized rates),sibling,same state,100-200,different NAICS-3,250,0.014945772340020895
+water x air (covariance of standardized rates),sibling,same state,200-400,all pairs,1024,0.10012948615952649
+water x air (covariance of standardized rates),sibling,same state,200-400,different NAICS-3,238,-0.018221065371899
+water x air (covariance of standardized rates),sibling,same state,400-800,all pairs,228,0.12190862226620083
+water x air (covariance of standardized rates),sibling,same state,400-800,different NAICS-3,94,0.17596996886307134
+water x air (covariance of standardized rates),sibling,same state,800+,all pairs,32,0.1988294265546804
+water x air (covariance of standardized rates),sibling,same state,800+,different NAICS-3,8,
+water x air (covariance of standardized rates),sibling,different state,0-50,all pairs,80,0.0870715021334078
+water x air (covariance of standardized rates),sibling,different state,0-50,different NAICS-3,16,-0.06618531132937175
+water x air (covariance of standardized rates),sibling,different state,50-100,all pairs,192,0.04419475732847295
+water x air (covariance of standardized rates),sibling,different state,50-100,different NAICS-3,59,-0.04702689773773964
+water x air (covariance of standardized rates),sibling,different state,100-200,all pairs,788,0.05708281308216434
+water x air (covariance of standardized rates),sibling,different state,100-200,different NAICS-3,272,0.026000915721804515
+water x air (covariance of standardized rates),sibling,different state,200-400,all pairs,3336,0.09251655976695611
+water x air (covariance of standardized rates),sibling,different state,200-400,different NAICS-3,1175,0.05688595203045066
+water x air (covariance of standardized rates),sibling,different state,400-800,all pairs,8439,0.044006632966537416
+water x air (covariance of standardized rates),sibling,different state,400-800,different NAICS-3,3363,-0.009982565568950314
+water x air (covariance of standardized rates),sibling,different state,800+,all pairs,22212,0.03335318713194085
+water x air (covariance of standardized rates),sibling,different state,800+,different NAICS-3,11534,-0.002729020601549823
+water x air (covariance of standardized rates),unrelated,same state,0-50,all pairs,52990,0.09835234421168303
+water x air (covariance of standardized rates),unrelated,same state,0-50,different NAICS-3,45268,0.06372159796251085
+water x air (covariance of standardized rates),unrelated,same state,50-100,all pairs,68680,0.03701561285969748
+water x air (covariance of standardized rates),unrelated,same state,50-100,different NAICS-3,61148,0.024175577837188857
+water x air (covariance of standardized rates),unrelated,same state,100-200,all pairs,134004,0.03357700997759842
+water x air (covariance of standardized rates),unrelated,same state,100-200,different NAICS-3,121327,0.01682426503794951
+water x air (covariance of standardized rates),unrelated,same state,200-400,all pairs,170340,0.015760023644453197
+water x air (covariance of standardized rates),unrelated,same state,200-400,different NAICS-3,155986,0.007364351917970783
+water x air (covariance of standardized rates),unrelated,same state,400-800,all pairs,39404,-0.004144763113862113
+water x air (covariance of standardized rates),unrelated,same state,400-800,different NAICS-3,36168,-0.008647304582974066
+water x air (covariance of standardized rates),unrelated,same state,800+,all pairs,1664,0.07436663385064901
+water x air (covariance of standardized rates),unrelated,same state,800+,different NAICS-3,1409,0.06824437139864636
+water x air (covariance of standardized rates),unrelated,different state,0-50,all pairs,8456,-0.00520484328878635
+water x air (covariance of standardized rates),unrelated,different state,0-50,different NAICS-3,7585,-0.004354268915832968
+water x air (covariance of standardized rates),unrelated,different state,50-100,all pairs,31909,-0.015296769462828819
+water x air (covariance of standardized rates),unrelated,different state,50-100,different NAICS-3,28785,-0.017608868299449264
+water x air (covariance of standardized rates),unrelated,different state,100-200,all pairs,179700,0.00872129623670311
+water x air (covariance of standardized rates),unrelated,different state,100-200,different NAICS-3,164250,0.0045871857523625496
+water x air (covariance of standardized rates),unrelated,different state,200-400,all pairs,841912,0.013615789319840251
+water x air (covariance of standardized rates),unrelated,different state,200-400,different NAICS-3,770714,0.010537947667399425
+water x air (covariance of standardized rates),unrelated,different state,400-800,all pairs,2870018,-0.006406362354975459
+water x air (covariance of standardized rates),unrelated,different state,400-800,different NAICS-3,2636560,-0.008224791635432932
+water x air (covariance of standardized rates),unrelated,different state,800+,all pairs,9188541,-0.0013120509550042794
+water x air (covariance of standardized rates),unrelated,different state,800+,different NAICS-3,8464470,-0.0028499836147834216

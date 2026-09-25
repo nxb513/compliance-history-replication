@@ -1,0 +1,19 @@
+program,outcome,contrast,estimate,ci_low,ci_high
+air,any air violation,own water minus firm water,0.05687935953397505,0.029303153390535346,0.08604635789845941
+air,any air violation,own water minus same-state siblings' water,0.034830035514966995,0.0031272196400477406,0.07065602631971077
+air,any air violation,own program minus firm program,0.0943305665752815,0.0614453064625405,0.12514490923962968
+air,any air violation,own program minus own water,0.10007331378299122,0.07584418169555332,0.12820529774481398
+air,any high priority air violation,own water minus firm water,0.04152854753263535,-0.0007033802066642719,0.09816678540616668
+air,any high priority air violation,own water minus same-state siblings' water,0.04490335816866431,-0.005715402848398317,0.108389872160085
+air,any high priority air violation,own program minus firm program,0.08456166555297873,0.043315599666492316,0.1285981428609149
+air,any high priority air violation,own program minus own water,0.1230002751464172,0.08210787244251645,0.16675742286971124
+rcra,any RCRA violation,own water minus firm water,0.04716014399771884,0.013207296755003454,0.08172730520715074
+rcra,any RCRA violation,own water minus same-state siblings' water,0.0666641308482313,0.027266132754599118,0.11240430770385082
+rcra,any RCRA violation,own program minus firm program,0.07566711814466309,0.04365423317768462,0.10653491878160429
+rcra,any RCRA violation,own program minus own water,0.12912419209200654,0.08891213424384817,0.15871029524353986
+rcra,any RCRA significant noncomplier,own water minus firm water,-0.009653530377668362,-0.05660129228645154,0.038122424022083615
+rcra,any RCRA significant noncomplier,own water minus same-state siblings' water,0.08880516684607098,0.04370012313559039,0.14306023132757414
+rcra,any RCRA significant noncomplier,own program minus firm program,0.14060919540229888,0.09056975172141407,0.19772347996846168
+rcra,any RCRA significant noncomplier,own program minus own water,0.21491789819376028,0.15516228930045722,0.2880552235397201
+water,any effluent violation,own water minus firm water,0.20604345899818888,0.17973227021788316,0.24103907109341202
+water,any effluent violation,own water minus same-state siblings' water,0.1390226445363114,0.1088129321051424,0.18130675043565775

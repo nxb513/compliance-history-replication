@@ -1,0 +1,3 @@
+program,sample,water_x_program_same_plant,water_x_program_sibling_same_state,water_x_program_sibling_diff_state,water_x_program_unrelated_same_state,program_x_program_sibling_same_state,program_x_program_sibling_diff_state,program_x_program_unrelated_same_state,n_plants
+rcra,all plants with a program ID,0.12876886651934397,0.08987392559455673,-0.0015145679321055174,0.024674355762333858,0.25521056324079344,0.140636553888496,0.02803752686718372,5681
+rcra,large quantity generators or operating TSDFs,0.1246388820361776,0.11281011262954506,-0.017839007111391702,0.04262513823706541,0.21621012298851214,0.13289087997955124,0.04880725554083216,1679

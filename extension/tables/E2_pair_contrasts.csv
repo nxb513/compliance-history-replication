@@ -1,0 +1,3 @@
+contrast,diff,ci
+same minus different state,0.20199994479588093,[0.156 0.267]
+same minus different NAICS-4,0.09833875829568307,[0.027 0.182]

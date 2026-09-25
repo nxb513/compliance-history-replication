@@ -1,0 +1,7 @@
+program,sample,group,plants,ever_violation,annual_rate,evals_per_year,ever_any_rcra_snc
+rcra,all plants with a program ID,chronic water violator,1023,0.5982404692082112,0.1196449078780457,0.5971886549965729,0.15151515151515152
+rcra,all plants with a program ID,firm with no chronic plant,1796,0.2967706013363029,0.07215169141672483,0.27985906462381965,0.05623608017817372
+rcra,all plants with a program ID,non-chronic sibling,2862,0.2655485674353599,0.06385967088273167,0.4029893557409281,0.04612159329140461
+rcra,large quantity generators or operating TSDFs,chronic water violator,448,0.8616071428571429,0.20770991471326292,1.1109940809438579,0.26785714285714285
+rcra,large quantity generators or operating TSDFs,firm with no chronic plant,436,0.5688073394495413,0.15462113383558337,0.5846532003928793,0.1444954128440367
+rcra,large quantity generators or operating TSDFs,non-chronic sibling,795,0.539622641509434,0.1517163549239021,1.132859685737044,0.11949685534591195

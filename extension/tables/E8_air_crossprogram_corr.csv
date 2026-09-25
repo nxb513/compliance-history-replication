@@ -1,0 +1,3 @@
+program,sample,water_x_program_same_plant,water_x_program_sibling_same_state,water_x_program_sibling_diff_state,water_x_program_unrelated_same_state,program_x_program_sibling_same_state,program_x_program_sibling_diff_state,program_x_program_unrelated_same_state,n_plants
+air,all plants with a program ID,0.19350334321309012,0.17913458986659142,0.04185296802713389,0.03177377364230398,0.3406846823291399,0.05521669713897325,0.10097255085452216,5152
+air,major and synthetic-minor air sources,0.178641178021876,0.19601675562982263,0.04668709078888209,0.02824977862717215,0.34405532266328315,0.045065975109291515,0.11515554533346133,3489

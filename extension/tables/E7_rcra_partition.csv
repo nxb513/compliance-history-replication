@@ -1,0 +1,11 @@
+program,sample,outcome,firm,plant,resid,D,plants,firms,plant_years,mean,note,reml_note
+rcra,all plants with a program ID,any_rcra,0.0888260845826523,0.1584645866217734,0.7527093287955742,0.0696385020391211,5681.0,864.0,45340.0,0.086457873842082,,
+rcra,all plants with a program ID,any_rcra_snc,0.1725096035063358,0.3262384935744328,0.5012519029192313,0.153728890068097,5681.0,864.0,45340.0,0.0261358623731804,,
+rcra,all plants with a program ID,any_e90,0.1717288773840979,0.3372875813437341,0.490983541272168,0.1655587039596361,5681.0,864.0,45340.0,0.295125716806352,,
+rcra,all plants with a program ID,D(any_rcra) minus D(any_e90),,,,,,,,,diff CI [-0.129 -0.062]; D_any_rcra CI [0.05  0.092]; firm share diff CI [-0.103 -0.062],
+rcra,all plants with a program ID,"any_rcra, REML",0.0500670779410436,0.0903419286761559,0.8595909933828004,0.0402748507351123,,,,,,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+rcra,large quantity generators or operating TSDFs,any_rcra,0.0753274295696842,0.1399203920033482,0.7847521784269677,0.064592962433664,1679.0,372.0,14755.0,0.1805489664520501,,
+rcra,large quantity generators or operating TSDFs,any_rcra_snc,0.1961187440559508,0.3130862410738261,0.4907950148702231,0.1169674970178752,1679.0,372.0,14755.0,0.0639105388004066,,
+rcra,large quantity generators or operating TSDFs,any_e90,0.231256270285959,0.2964199861378829,0.472323743576158,0.0651637158519238,1679.0,372.0,14755.0,0.3707217892239918,,
+rcra,large quantity generators or operating TSDFs,D(any_rcra) minus D(any_e90),,,,,,,,,diff CI [-0.053  0.064]; D_any_rcra CI [0.039 0.086]; firm share diff CI [-0.196 -0.12 ],
+rcra,large quantity generators or operating TSDFs,"any_rcra, REML",0.0282776727449717,0.0859161714420239,0.8858061558130044,0.057638498697052204,,,,,,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)

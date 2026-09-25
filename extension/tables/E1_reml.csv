@@ -1,0 +1,3 @@
+outcome,firm,plant,resid,converged,reml_note
+log(1+effluent),0.080799471004002,0.3537262440513632,0.5654742849446347,True,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)
+log(1+reporting),0.0253554461120618,0.2218809770767754,0.7527635768111627,True,corrected 2026-09-25: best log-likelihood of lbfgs/powell/nm (REML_optimizer_robustness.csv)

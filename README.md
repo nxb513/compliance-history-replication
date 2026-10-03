@@ -12,7 +12,7 @@ This package contains the analysis files, code and pre-specified analysis plan b
 | `extension/` | Analysis files derived from public EPA data: plant groups, air and hazardous waste plant-year panels, Facility Registry Service links, plant attributes, ECHO Exporter fields for sample plants, penalty cases (`e21_units.parquet`) |
 | `extension/scripts/` | Analysis scripts (see the map below); `ext_common.py` holds shared helpers |
 | `extension/tables/` | Output tables (CSV) produced by the scripts |
-| `figures/` | `make_figures.py` and Figures 1 to 3 |
+| `figures/` | `make_figures.py` and Figs. 1 to 3 (EPS and PNG) |
 | `construction/` | Scripts that download the raw public data and build the primary panel |
 | `docs/analysis_plan.md` | Analysis plan with dated addenda, each written before the corresponding analysis was run |
 
@@ -39,10 +39,10 @@ Scripts that run on the analysis files included here, without raw downloads: `r4
 | Table 3, variance components | `r4_linkage_strict.py`; `e18_e19.py` (stack tests); `reml_robustness_all.py` (optimizer check) | `R4_linkage_strict_reml.csv`, `E18_stacktest_partition.csv`, `REML_optimizer_robustness.csv` |
 | Table 4, cross-program gap | `cross_analysis.py` | `E9_air_lpm.csv`, `E9_rcra_lpm.csv` |
 | Section 4.2, covariance and worst plant | `e12_e13.py`, `cross_analysis.py` | `E13_crossmedia_decomposition.csv`, `E13_lead_lag.csv`, `Xb_worst_plant_coincidence.csv` |
-| Figure 1, Section 4.3 | `e15_distance_border.py`, `robustness_R1_R3.py` | `E15_pair_correlations_by_distance.csv`, `E15_contrasts_bootstrap.csv`, `R1_E8_bootstrap_ci.csv` |
-| Figure 3 | `e14_event.py` | `E14_event_coefficients.csv`, `E14_event_tests.csv` |
+| Fig. 1, Section 4.3 | `e15_distance_border.py`, `robustness_R1_R3.py` | `E15_pair_correlations_by_distance.csv`, `E15_contrasts_bootstrap.csv`, `R1_E8_bootstrap_ci.csv` |
+| Fig. 2 | `e14_event.py` | `E14_event_coefficients.csv`, `E14_event_tests.csv` |
 | Li and Lyon replication | `e17_spillover_liylon.py` | `E17_liylon_spillover.csv` |
-| Figure 2, Table 5 | `b1_targeting.py`, `e16_targeting_allocation.py` | `B1_auc_single.csv`, `B1_auc_combinations.csv`, `B1_auc_differences.csv`, `E16a_targeting_simulation.csv` |
+| Fig. 3, Table 5 | `b1_targeting.py`, `e16_targeting_allocation.py` | `B1_auc_single.csv`, `B1_auc_combinations.csv`, `B1_auc_differences.csv`, `E16a_targeting_simulation.csv` |
 | Table 6, Panel A | `e21_penalties.py` | `E21_penalty_history.csv`, `E21_units_descriptives.csv` |
 | Table 6, Panel B | `e16_targeting_allocation.py` | `E16b_allocation_vs_risk.csv` |
 | Supporting Information S3 | `robustness_R1_R3.py`, `b2_b4.py`, `b5_multiple_testing.py`, `e20_regimes.py` | `R2_*`, `R3_*`, `B2_*` to `B5_*`, `E20_*` |

@@ -1,7 +1,7 @@
 """Figures for the manuscript. Black and white: groups are told apart by line style and marker.
-Sized for a 119 mm column, Arial lettering at 8 pt, saved as EPS (vector, fonts embedded) and PNG.
-Fig. 1: pair correlations by distance and state border (E15). Fig. 2: sister plants around a first formal action (E14).
-Fig. 3: out-of-sample AUC by source of history (B1)."""
+Sized for a 119 mm column, Arial lettering at 8 pt, saved as EPS and PDF (vector, fonts embedded) and PNG.
+Fig. 1: pair correlations by distance and state border (E15). Fig. S1: sister plants around a first formal action (E14).
+Fig. 2: out-of-sample AUC by source of history (B1)."""
 import os
 import pandas as pd, numpy as np, matplotlib
 matplotlib.use("Agg"); import matplotlib.pyplot as plt
@@ -19,7 +19,7 @@ def save(fig, name):
         bb = fig.get_tightbbox(fig.canvas.get_renderer())
         if bb.width <= W + 0.01: break
         fig.set_size_inches(fig.get_figwidth() - (bb.width - W), fig.get_figheight())
-    for ext, kw in [("eps", {}), ("png", {"dpi": 600})]:
+    for ext, kw in [("eps", {}), ("pdf", {}), ("png", {"dpi": 600})]:
         fig.savefig(f"{O}/{name}.{ext}", bbox_inches="tight", **kw)
     plt.close(fig)
 
@@ -37,7 +37,7 @@ for pair, st, lab, ls, mk, col in spec:
 ax.axhline(0, color="0.6", lw=0.5)
 ax.set_xticks(x); ax.set_xticklabels(bins); ax.set_xlabel("Distance between the two plants (km)"); ax.set_ylabel("Correlation of long-run violation rates")
 ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.2), ncol=2)
-save(fig, "Fig1")
+save(fig, "Figure_1")
 
 # Fig. 2: sister plants around a firm's first formal water enforcement action (E14)
 e = pd.read_csv(f"{T}/E14_event_coefficients.csv")
@@ -49,7 +49,7 @@ ax.axhline(0, color="0.6", lw=0.5); ax.axvline(-0.5, color="0.6", lw=0.5, ls=":"
 ax.set_xticks(range(-3, 4)); ax.set_xlabel("Years relative to the firm's first formal action at one of its plants")
 ax.set_ylabel("Change in probability of an\neffluent violation (vs year -1)")
 ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.22), ncol=2)
-save(fig, "Fig2")
+save(fig, "Figure_S1")
 
 # Fig. 3: out-of-sample AUC by source of history (B1)
 b = pd.read_csv(f"{T}/B1_auc_single.csv")
@@ -72,5 +72,5 @@ ax.set_yticks(range(len(outs))); ax.set_yticklabels([o[2] for o in outs][::-1]);
 ax.set_xlabel("Out-of-sample AUC (history 2010 to 2017, outcome 2018 to 2025)")
 fig.subplots_adjust(left=0.36, right=0.98, top=0.98, bottom=0.36)
 fig.legend(*ax.get_legend_handles_labels(), frameon=False, loc="lower center", bbox_to_anchor=(0.5, 0.0), ncol=1)
-save(fig, "Fig3")
+save(fig, "Figure_2")
 print("figures written to", O)

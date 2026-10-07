@@ -2,7 +2,7 @@
 
 **Whose Compliance History? Plants, Parent Firms, and the Information Used in Environmental Enforcement in the United States**
 
-This package contains the analysis files, code and pre-specified analysis plan behind every table and figure in the article and its Supplementary material. It is anonymized for double-blind review.
+This package contains the analysis files, code and pre-specified analysis plan behind every table and figure in the article and its Supplementary material. All inputs are public data from United States federal agencies.
 
 ## Contents
 
@@ -52,4 +52,4 @@ Scripts that run on the analysis files included here, without raw downloads: `r4
 
 - Variance components use restricted maximum likelihood with the best of three optimizers (`reml_best` in `ext_common.py`).
 - Firm bootstraps use fixed seeds; results reproduce exactly.
-- In `docs/analysis_plan.md`, references to an earlier manuscript by the author were replaced by neutral wording for anonymity; nothing else was changed.
+- In `docs/analysis_plan.md`, references to an earlier manuscript by the author were replaced by neutral wording when the plan was prepared for review; nothing else was changed.
